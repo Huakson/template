@@ -43,6 +43,20 @@ body {
   color: white;
 }
 
+.inf-head{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: black;
+    
+}
+
+
+.inf-head-red{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: #e1482d;
+}
+
 .icon{
   color: white;
   font-size: 35px;
@@ -54,6 +68,9 @@ body {
   }
 }
 
+.border{
+  border: blue;
+}
 
 a {
   -webkit-transition: .3s all ease;
@@ -71,6 +88,15 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 
 .bg-light {
   background: #3d576c !important;
+}
+
+.bg-light-clean{
+  font-family: 'Nanum Gothic', sans-serif;
+  background: #bdbebf !important;
+}
+
+.font{
+  font-size: 15px;
 }
 
 .border-2 {
@@ -156,10 +182,35 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
   font-size: 25px;
 }
 
+.btn-custom {
+	padding: 1px 15px 3px 2px;
+	border-radius: 50px;
+}
+
+.svg{
+  width: 10px;
+}
+
+.btn-icon {
+	padding: 8px;
+	background: #ffffff;
+}
+
 .header-text-med{
   font-family: 'Poppins', sans-serif;
   color: #2b3a48;
   font-size: 20px;
+}
+.header-text-med-green{
+  font-family: 'Poppins', sans-serif;
+  color: #25d366;
+  font-size: 20px;  
+}
+
+.header-text-med-inst{
+  font-family: 'Poppins', sans-serif;
+  color: #C13584;;
+  font-size: 20px;  
 }
 
 .header-text-med-red{
@@ -171,6 +222,12 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 .header-text-med-sm{
   font-family: 'Poppins', sans-serif;
   color: #2c3a44;
+  font-size: 15px; 
+}
+
+.header-text-med-sm-2{
+  color: #797c80;
+  font-family: 'Poppins', sans-serif;
   font-size: 15px; 
 }
 
@@ -199,6 +256,36 @@ v-divider2{
   border-width: 2px;
   background: #e1482d;
   border-color: #e1482d;
+  color: #fff;
+  position: relative;
+  top: 0;
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease;
+  -webkit-box-shadow: 0 4px 20px -5px #e1482d;
+  box-shadow: 0 4px 20px -5px #e1482d;
+}
+
+.btn.btn-wapp{
+  font-family: 'Poppins', sans-serif;
+  border-width: 2px;
+  background:  #25d366;
+  border-color:  #25d366;
+  color: #fff;
+  position: relative;
+  top: 0;
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease;
+  -webkit-box-shadow: 0 4px 20px -5px rgba(66, 133, 244, 0.4);
+  box-shadow: 0 4px 20px -5px rgba(66, 133, 244, 0.4);
+}
+
+.btn.btn-inst{
+  font-family: 'Poppins', sans-serif;
+  border-width: 2px;
+  background:  #C13584;;
+  border-color: #C13584;;
   color: #fff;
   position: relative;
   top: 0;
