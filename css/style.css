@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 }
 
 .bg-light {
-  background: #3d576c !important;
+  background: #4DBCE9 !important;
 }
 
 .bg-light-clean{
@@ -212,6 +212,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
   color: #C13584;;
   font-size: 20px;  
 }
+
 
 .header-text-med-red{
   font-family: 'Poppins', sans-serif;
@@ -1128,7 +1129,7 @@ v-divider2{
 }
 
 .bg-light {
-  background: #ccc;
+  background-image: url('../images/background.jpg');
 }
 
 .team-member {
